@@ -11,12 +11,18 @@ const Navbar = () => {
             <span className="text-xl font-bold text-foreground">Aranya Krishi</span>
           </div>
           
-          <div className="hidden md:flex items-center gap-8">
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Home</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">About</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Services</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Projects</a>
-            <Button>Contact Us</Button>
+          <div className="hidden md:flex items-center gap-6">
+            <a href="/" className="text-foreground hover:text-primary transition-colors">Home</a>
+            <a href="/about" className="text-foreground hover:text-primary transition-colors">About</a>
+            <a href="/services" className="text-foreground hover:text-primary transition-colors">Services</a>
+            <a href="/projects" className="text-foreground hover:text-primary transition-colors">Projects</a>
+            <a href="/team" className="text-foreground hover:text-primary transition-colors">Team</a>
+            <a href="/financial-freedom" className="text-foreground hover:text-primary transition-colors text-sm">Financial Freedom</a>
+            <a href="/teakwood" className="text-foreground hover:text-primary transition-colors text-sm">Teakwood</a>
+            <a href="/faq" className="text-foreground hover:text-primary transition-colors">FAQ</a>
+            <Button asChild>
+              <a href="/contact">Contact</a>
+            </Button>
           </div>
         </div>
       </div>
